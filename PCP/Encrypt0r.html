@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PCP - Encrypt0r</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <center>
+    <h1>PCP Encrypt0r</h1>
+    <p>Enter text</p>
+    <input type="text" id="input"><br><br>
+    <div id="pcpOutput"></div><br>
+    <button onclick="encrypt()">Encrypt!</button>
+    </center>
+    <script>
+        function encrypt() {
+            var input = document.getElementById("input").value;
+            var str1 = input.replace("a", "5949F").replace("b", "X3T9F").replace("c", "G1F6Y").replace("d", "2HP54").replace("e", "1ELDQ").replace("f", "O424W").replace("g", "GSLC8").replace("h", "9HB74").replace("i", "3ORQQ").replace("j", "H7YKP").replace("k", "ZVN7Z").replace("l", "QUEW4").replace("m", "5l3vd").replace("n", "QMRJR").replace("o", "WGUTS").replace("p", "7EE6A").replace("q", "QJ8TA").replace("r", "LTC9Z").replace("s", "0YAZK").replace("t", "5J2EJ").replace("u", "650HM").replace("x", "S6G02").replace("y", "PEKSR").replace("z", "WU2ME");
+            var txt = str1;
+document.getElementById("pcpOutput").innerHTML = txt;
+        }
+    </script>
+</body>
+<style>
+h1, div, p {
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ font-size: 50pt;
+}
+h1 {
+ font-size: 70pt;
+}
+body {
+ background-color: #2e6bcc;
+}
+button {
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ border-radius: 1px;
+ border: none;
+ background-color: #2ecc70;
+ height: 100px;
+ width: 500px;
+ font-size: 30pt;
+}
+input {
+ font-family: Arial, Helvetica, sans-serif;
+ border: 5px solid white;
+ outline: none;
+ border-radius: 1px;
+ height: 85px;
+ border-style: solid;
+ width: 480px;
+ box-shadow: inset 0px 0px 0px 0px red;
+ -webkit-appearance: none;
+ font-size: 50pt;
+</style>
+</html>
