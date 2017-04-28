@@ -6,7 +6,7 @@ permalink: /about/
 
 Exploit PoCs :: Programmer :: Security Researcher :: 中文
 
-#PGP
+# PGP
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2
