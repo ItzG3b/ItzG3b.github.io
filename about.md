@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Exploit PoCs :: Programmer :: Security Researcher :: 中文
+infosec && Mobile Security | English/中文/Español
 
 [PGP](../pgp.html)
